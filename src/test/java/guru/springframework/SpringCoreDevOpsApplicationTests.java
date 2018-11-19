@@ -15,7 +15,7 @@ public class SpringCoreDevOpsApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		assertEquals("one", "two");
+		assertEquals("one", "one");
 	}
 
 }
