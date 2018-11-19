@@ -1,5 +1,7 @@
 package guru.springframework;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -13,6 +15,7 @@ public class SpringCoreDevOpsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		assertEquals("one", "two");
 	}
 
 }
